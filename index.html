@@ -38,13 +38,46 @@
   <body>
     <!-- header -->
     <header>
-      <div class="mx-auto text-center h1 bg-primary">This is the Header</div>
+      <!-- navbar icon -->
+      <nav
+        class="navbar sticky-top mx-auto navbar-expand-lg navbar-light bg-primary h4"
+      >
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/images/LBL - no words (Full Color).png"
+            width="150"
+            height="150"
+          />
+        </a>
+        <!-- set navbar clickable button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-list"
+          aria-controls="navbar-list"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar list items -->
+        <div class="collapse navbar-collapse" id="navbar-list">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- main section -->
     <main>
       <div id="main" class="mx-auto text-center h2 vh-100 bg-white">
-        This is the Main Section
+        <img src="./assets/images/LBL Logo (Full Color).png" />
       </div>
     </main>
 
