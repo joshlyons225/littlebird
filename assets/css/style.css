@@ -1,3 +1,9 @@
 body {
   background: linear-gradient(white, gray);
+  color: rgb(46, 45, 43);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#row-style {
+  background: linear-gradient(rgb(238, 243, 169) yellow);
 }
