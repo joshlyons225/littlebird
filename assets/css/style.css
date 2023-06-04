@@ -8,6 +8,6 @@
 
 body {
   background: linear-gradient(var(--white), var(--gray));
-  color: rgb(46, 45, 43);
+  color: var(--charcoal)
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
