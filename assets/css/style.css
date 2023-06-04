@@ -16,7 +16,7 @@ body {
 #graphic-box {
   background: linear-gradient(to bottom right, var(--red), var(--yellow));
   border-style: groove;
-  border-color: whitesmoke;
+  border-color: var(--white);
   border-width: 4rem;
   opacity: 0.65;
 }
