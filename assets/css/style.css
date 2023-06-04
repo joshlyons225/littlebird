@@ -1,5 +1,11 @@
+:root {
+  --gray: #555551;
+  --yellow: #d1b30b;
+  --white: #ffffff;
+}
+
 body {
-  background: linear-gradient(white, gray);
+  background: linear-gradient(var(--white), var(--gray));
   color: rgb(46, 45, 43);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
